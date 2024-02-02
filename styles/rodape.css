@@ -1,0 +1,126 @@
+.rodapé
+{
+
+margin: 0;
+
+}
+
+.rodape__titulo
+{
+
+background-color: var(--branco);
+
+}
+
+.lista-rodapé
+{
+display: none;
+
+}
+
+@media screen  and (min-width: 1024px) {
+
+.rodapé
+{
+
+display: flex;
+justify-content:space-around ;
+
+}
+
+.lista-rodapé
+{
+display: block;
+
+}
+
+.lista-rodape__item
+{
+
+display: flex;
+align-items: center;
+margin: 0.6em 0;
+
+
+}
+
+.lista-rodapé__link
+{
+
+
+       color:burlywood;
+       text-decoration: none;
+       margin-left: 0.6em;
+
+}
+
+
+.ista-rodapé__titulo
+{
+
+    font-size: 14px ;
+    color: brown;
+
+}
+
+.rodape__titulo
+{
+
+
+    font-size: 24px;
+}
+
+.opções__botôes:checked ~ .opções__rotulo > .opções__item
+{
+
+ background: var(--azul-degrade);
+ color: var(--branco);
+
+}
+
+.opções__item
+{
+padding: 2em 1em;
+
+
+}
+
+.lista-menu__item:hover
+{
+
+    background: var(--azul-degrade);
+
+
+}
+
+.lista-menu__item:hover> .lista-menu__item__link
+{
+-webkit-text-fill-color: var(--branco);
+
+
+}
+
+
+
+}
+
+@media screen  and (min-width: 1728px)
+{
+
+ .lista-rodapé
+ {
+
+      border-left: 1px solid var(--branco);
+
+ }
+
+ .rodapé{
+
+    padding: 3em 0;
+
+
+ }
+
+
+
+} 
